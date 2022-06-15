@@ -1,0 +1,29 @@
+/*### Cores Primarias*/
+/*### Cores Neutras*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.caixa {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caixa .cartao {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 80%;
+  height: 100px;
+  border-radius: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */

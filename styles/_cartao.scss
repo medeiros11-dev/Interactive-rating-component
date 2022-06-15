@@ -1,0 +1,21 @@
+.caixa {
+    //border: 1px solid magenta;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cartao {
+        background-color: $dark-blue;
+        width: 88%;
+        //height: 100px;
+        border-radius: 1.5rem;
+        padding: 2.5rem;
+
+        h1 {
+            font-size: 2.4rem;
+            color: $white;
+        }
+    }
+}
