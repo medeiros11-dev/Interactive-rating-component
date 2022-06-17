@@ -23,6 +23,7 @@ body {
 .caixa .cartao {
   background-color: hsla(213deg, 19%, 18%, 0.6);
   width: 88%;
+  max-width: 41rem;
   border-radius: 1.5rem;
   padding: 2.5rem;
 }
@@ -66,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2rem;
+  border-radius: 50%;
   margin-top: 2.6rem;
 }
 .caixa .cartao .caixa-votos .botao-voto div {
@@ -133,4 +134,38 @@ body {
 }
 .caixa .cartao .hide {
   display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .caixa .cartao {
+    padding: 3rem;
+    border-radius: 3rem;
+  }
+  .caixa .cartao .star {
+    width: 5rem;
+    height: 5rem;
+  }
+  .caixa .cartao .star img {
+    width: 1.7rem;
+  }
+  .caixa .cartao .titulo {
+    margin-top: 3.5rem;
+    font-size: 2.77rem;
+  }
+  .caixa .cartao .texto {
+    margin-top: 0.9rem;
+    line-height: 2.4rem;
+    font-size: 1.505rem;
+  }
+  .caixa .cartao .caixa-votos .botao-voto {
+    width: 5.1rem;
+    height: 5.1rem;
+    font-size: 1.6rem;
+  }
+  .caixa .cartao .caixa-votos .botao-voto div {
+    transform: translateY(0);
+  }
+  .caixa .cartao .botao-enviar {
+    margin-top: 3.2rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
