@@ -15,8 +15,6 @@ function onSubmit(){
     conteudoCartao1.classList.add('hide');
     nota.textContent = valorNota;
     conteudoCartao2.classList.remove('hide');
-  
-    //console.log('submit click nigga')
 }
 
 function marcarBotaoDeVotoClick(event){
