@@ -30,8 +30,4 @@ function marcarBotaoDeVotoClick(event){
     }
     //caixa de voto
     valorNota = event.target.textContent;
-    console.log(valorNota)
-
 }
-
-console.log(botoesVoto);
